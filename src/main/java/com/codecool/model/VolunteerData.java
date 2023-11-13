@@ -1,4 +1,4 @@
-package com.codecool.data;
+package com.codecool.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class UserData {
+public class VolunteerData {
     @Id
     @GeneratedValue
     private Long id;
